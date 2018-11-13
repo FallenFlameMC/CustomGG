@@ -1,0 +1,10 @@
+name: CustomGG
+version: ${project.version}
+main: com.fallenflame.core.customgg.CustomGG
+authors: [JoeZwet]
+description: Allow players to customize their "GG"s
+website: https://fallenflame.com
+commands:
+  gg:
+    usage: /gg
+    description: Select custom gg text.
