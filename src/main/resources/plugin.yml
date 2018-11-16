@@ -7,4 +7,7 @@ website: https://fallenflame.com
 commands:
   gg:
     usage: /gg
-    description: Select custom gg text.
+    description: GUIHandler custom gg text.
+  customgg:
+    usage: /customgg
+    description: CustomGG command.

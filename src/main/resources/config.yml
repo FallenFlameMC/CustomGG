@@ -1,0 +1,12 @@
+#######################################################
+#     _____ _____                                     #
+#    |  __ \  __ \                                    #
+#    | |  \/ |  \/                                    #
+#    | | __| | __    CustomGG v${project.version}                  #
+#    | |_\ \ |_\ \   by JoeZwet (http://joezwet.me)   #
+#     \____/\____/                                    #
+#                                                     #
+#######################################################
+
+# [true|false] - Play a XP pickup ding when opening the GUI.
+open-sound: true
