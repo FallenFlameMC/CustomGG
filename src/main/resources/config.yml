@@ -2,11 +2,27 @@
 #     _____ _____                                     #
 #    |  __ \  __ \                                    #
 #    | |  \/ |  \/                                    #
-#    | | __| | __    CustomGG v${project.version}                  #
+#    | | __| | __    CustomGG v1.0.0                  #
 #    | |_\ \ |_\ \   by JoeZwet (http://joezwet.me)   #
 #     \____/\____/                                    #
 #                                                     #
 #######################################################
 
-# [true|false] - Play a XP pickup ding when opening the GUI.
+# [Boolean] - Play a XP pickup ding when opening the GUI.
 open-sound: true
+
+# MySQL settings for storage database
+mysql:
+  # [String] - SQL Server Hostname
+  hostname: localhost
+  # [Integer] - SQL Server Port
+  port: 3306
+  # [String] - SQL Server Username
+  username: customgg
+  # [String] - SQL Server Password
+  passord: lolgimmepass
+  # [String] - SQL Database Name
+  database: customgg
+
+# [Integer] - Delay between backups in minutes.
+backup-delay: 30

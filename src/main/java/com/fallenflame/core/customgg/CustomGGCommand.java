@@ -15,19 +15,20 @@ public class CustomGGCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if(sender.hasPermission("customgg.reload")) {
+        if(sender.hasPermission("customgg.admin")) {
             switch (args.length) {
                 case 1:
-                    sender.sendMessage(ChatUtil.getPrefixedMessage(ChatUtil.replaceColorChars("Reloading config.")));
-                    plugin.reloadConfig();
-                    sender.sendMessage(ChatUtil.getPrefixedMessage(ChatUtil.replaceColorChars("Reload complete.")));
+                    if(args[0].equalsIgnoreCase("reload")) {
+                        sender.sendMessage(ChatUtil.getPrefixedMessage(ChatUtil.replaceColorChars("Reloading config.")));
+                        plugin.reload();
+                        sender.sendMessage(ChatUtil.getPrefixedMessage(ChatUtil.replaceColorChars("Reload complete.")));
+                    }
                     break;
                 default:
                     sender.sendMessage(ChatUtil.getPrefixedMessage(ChatUtil.replaceColorChars("&b&lCustomGG &7by JoeZwet")));
             }
         } else {
-            sender.sendMessage(ChatUtil.getPrefixedMessage(ChatUtil.replaceColorChars("&cYou do not have permission to reload &bCustomGG")));
-        }
+            sender.sendMessage(ChatUtil.getPrefixedMessage(ChatUtil.replaceColorChars("&b&lCustomGG &7by JoeZwet")));        }
         return true;
     }
 }

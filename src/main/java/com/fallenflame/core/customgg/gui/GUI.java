@@ -33,7 +33,7 @@ public class GUI {
     }
 
     public static Inventory colors() {
-        Inventory inv = Bukkit.createInventory(null, IInventorySize.ROW*2, "Custom GG - Colors");
+        Inventory inv = Bukkit.createInventory(null, IInventorySize.ROW*3, "Custom GG - Colors");
         inv.setItem(0, Items.Other.back());
         inv.setItem(4, Items.Other.preview());
         inv.setItem(8, Items.Other.cancel());
