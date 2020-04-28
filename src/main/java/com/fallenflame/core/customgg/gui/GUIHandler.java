@@ -2,7 +2,7 @@ package com.fallenflame.core.customgg.gui;
 
 import com.fallenflame.core.customgg.CustomGG;
 import com.fallenflame.core.customgg.gg.GG;
-import com.fallenflame.fallenutil.chat.ChatUtil;
+import com.fallenflame.core.customgg.util.ChatUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.Sound;
 import org.bukkit.command.Command;

@@ -70,8 +70,8 @@ public class GG {
     public void setItalic(boolean italic) {
         isItalic = italic;
     }
-    public void setStrike(boolean strke) {
-        isStrike = strke;
+    public void setStrike(boolean strike) {
+        isStrike = strike;
     }
     public void setHasBars(boolean hasBars) {
         this.hasBars = hasBars;

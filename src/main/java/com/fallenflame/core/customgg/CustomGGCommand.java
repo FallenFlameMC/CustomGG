@@ -1,6 +1,6 @@
 package com.fallenflame.core.customgg;
 
-import com.fallenflame.fallenutil.chat.ChatUtil;
+import com.fallenflame.core.customgg.util.ChatUtil;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

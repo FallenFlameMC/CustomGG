@@ -2,7 +2,7 @@ package com.fallenflame.core.customgg.gg;
 
 
 import com.fallenflame.core.customgg.CustomGG;
-import com.fallenflame.fallenutil.chat.ChatUtil;
+import com.fallenflame.core.customgg.util.ChatUtil;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
@@ -80,7 +80,7 @@ public class GGHandler {
         }
     }
 
-    public void backupGG() {
+    public void save() {
         CustomGG.instance.getLogger().info("Saving CustomGG data for all users.");
         for(int i = 0; i < uuidggHashMap.size(); i++) {
             uuidggHashMap.forEach((uuid, gg) -> {

@@ -1,6 +1,6 @@
 package com.fallenflame.core.customgg.gui;
 
-import com.fallenflame.fallenutil.chat.ChatUtil;
+import com.fallenflame.core.customgg.util.ChatUtil;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;

@@ -64,7 +64,7 @@ public class CustomGG extends JavaPlugin {
     @Override
     public void onDisable() {
         if(connection != null) {
-            gghandler.backupGG();
+            gghandler.save();
             try {
                 connection.close();
             } catch (SQLException e) {}
